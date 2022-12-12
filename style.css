@@ -18,8 +18,8 @@ p{
 li{
   font-size: 18px;
 }
-h1{
 
+h1{
   margin-bottom: 0px;
   font-size: 40px;
 }
@@ -108,7 +108,6 @@ header{
 	list-style-type: none;
 	padding-left: 0px;
 	padding-top: 0px;
-	
 	margin: 0px;
 }
 
@@ -144,13 +143,12 @@ header{
 }
 
 .autor-info{
-	font-family: Lora, Arial, sans-serif;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	padding-right: 25px;
-	margin-top: -25px;
-
+  font-family: Lora, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 25px;
+  margin-top: -25px;
 }
 
 .title{
@@ -159,7 +157,6 @@ header{
 }
 
 .subtitle{
-	display: flex;
-	text-align: end;
-
+  display: flex;
+  text-align: end;
 }
