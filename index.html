@@ -91,13 +91,13 @@
         num1 = num1.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>(""); 
         num2 = num2.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>("");
   
-        <span class="violetcode">if</span>  (num1.length < num2.length) <span class="violetcode">{</span>
+        <span class="violetcode">if</span>  (num1.length &lt; num2.length) <span class="violetcode">{</span>
           [num1, num2] = [num2, num1];
         <span class="violetcode">}</span>
   
         <span class="bluecode">let</span> returnString = "";
   
-        <span class="violetcode">for</span>  (let i = 0; i < num1.length; i++) <span class="violetcode">{</span>
+        <span class="violetcode">for</span>  (let i = 0; i &lt; num1.length; i++) <span class="violetcode">{</span>
           let int1 = <span class="yellowcode">parseInt</span>(num1[i]);
           let int2 = <span class="yellowcode">parseInt</span>(num2[i] || 0);
   
