@@ -58,57 +58,57 @@
         </div>
       </section>
     </aside>
-      <div class="detailedinfo">
+    <div class="detailedinfo">
       <div>
-      <h2 class="headerinfoh2">ABOUT ME</h2>
+        <h2 class="headerinfoh2">ABOUT ME</h2>
       </div>
-      <div class="underline-black"></div>
+        <div class="underline-black"></div>
       <div class="biography">
-      <p> I want to try myself in programming and learn something new.</p>
+        <p> I want to try myself in programming and learn something new.</p>
       </div>
       <div>
-      <h2>LANGUAGES:</h2>
+        <h2>LANGUAGES:</h2>
       </div>
-      <ul style="list-style: square; display: flex; flex-direction: column;">
-      <li>Russian - native speaker</li>
-      <li>English - in progress</li>
+      <ul>
+        <li>Russian - native speaker</li>
+        <li>English - in progress</li>
       </ul>
       <div>
-      <h2>COURSES:</h2>
+        <h2>COURSES:</h2>
       </div>
-      <ul style="list-style: square; display: flex; flex-direction: column;">
-      <li>JavaScript for beginners.</li>
-      <li>Basics Html & CSS</li>
+      <ul >
+        <li>JavaScript for beginners.</li>
+        <li>Basics Html & CSS</li>
       </ul>
       <div>
-      <h2 class="headerinfoh2">CODE EXAMPLE</h2>
+        <h2 class="headerinfoh2">CODE EXAMPLE</h2>
       </div>
-      <div class="underline-black"></div>
+        <div class="underline-black"></div>
       <pre id="code" class="codeContain">
       <code class="code">
       <span class="bluecode">function</span> <span class="yellowcode">add</span>(num1, num2) {
-      
-          num1 = num1.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>(""); 
-          num2 = num2.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>("");
-      
-          <span class="violetcode">if</span> (num1.length < num2.length) <span class="violetcode">{</span>
+        
+        num1 = num1.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>(""); 
+        num2 = num2.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>("");
+  
+        <span class="violetcode">if</span>  (num1.length < num2.length) <span class="violetcode">{</span>
           [num1, num2] = [num2, num1];
-          <span class="violetcode">}</span>
-      
-          <span class="bluecode">let</span> returnString = "";
-      
-          <span class="violetcode">for</span> (let i = 0; i < num1.length; i++) <span class="violetcode">{</span>
+        <span class="violetcode">}</span>
+  
+        <span class="bluecode">let</span> returnString = "";
+  
+        <span class="violetcode">for</span>  (let i = 0; i < num1.length; i++) <span class="violetcode">{</span>
           let int1 = <span class="yellowcode">parseInt</span>(num1[i]);
           let int2 = <span class="yellowcode">parseInt</span>(num2[i] || 0);
-      
+  
           returnString = (int1 + int2).toString() + returnString;
-          <span class="violetcode">}</span>
-      
-          <span class="violetcode">return</span> <span class="yellowcode">parseInt</span>(returnString);
-          }
-      </code>
-      </pre>
-      </div>
-    </main>
+        <span class="violetcode">}</span>
+  
+      <span class="violetcode">return</span> <span class="yellowcode">parseInt</span>(returnString);
+      }
+          </code>
+        </pre>
+    </div>
+  </main>
 </body>
 </html>
