@@ -79,6 +79,7 @@ header{
 }
 
 .ancor-cont-contain{
+  position: relative;
 	width: 65px;
 	height: 65px;
 	margin-left: 40px;
@@ -337,6 +338,7 @@ footer{
   
 .dis-button,
 .mail-button{
+  position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -352,6 +354,28 @@ footer{
 	border: none;
 	margin: 0px;
   margin-right: 2px;
+}
+
+.anim-email{
+  position: absolute;
+  height: 27px;
+  width: 27px;
+  right: 55px;
+  border-radius: 100%;
+  border: 2px solid;
+  border-color: #118adb transparent transparent;
+  animation: spin 1s linear infinite;
+}
+
+.anim-disc{
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  right: 73px;
+  border-radius: 100%;
+  border: 2px solid;
+  border-color: #118adb transparent transparent;
+  animation: spin 1s linear infinite;
 }
   
   
@@ -427,4 +451,9 @@ footer{
 	font-style: italic;
 	margin-top: 5px;   
 }
-  
+
+@keyframes spin{
+  100%{
+      transform: rotate(360deg);
+  }
+}
