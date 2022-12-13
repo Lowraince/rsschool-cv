@@ -5,7 +5,8 @@ html{
 body{
 	width: 1080px;
 	margin: auto;
-	background-image: url(cv-img/background_024.jpg);
+	background-image: url(/rsschool-cv/assets/background_024.jpg);
+  background-size: cover;
 	font-family: Lora, Arial, sans-serif;
 }
 
@@ -313,7 +314,7 @@ footer{
   margin: 5px 5px 5px 3px;
   border: 2px solid #d9f5ff;
   border-radius: 30px;
-	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
   
 .footer-left >h2{
