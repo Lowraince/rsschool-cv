@@ -64,7 +64,6 @@ header{
   margin-right: 5px;
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 	width: 180px;
-
 }
 
 .autor-photo{
@@ -173,6 +172,8 @@ main{
   border-radius: 10px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .aside{
@@ -278,3 +279,152 @@ main{
 .violetcode{
 	color: rgb(233, 143, 241);
 }
+
+footer{
+  display: flex;
+  background-color: #118adb;
+  border: 10px solid #118adb;
+  height: 165px;
+  border-top: none;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.footer-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #d9f5ff;
+	border: 2px solid #118adb;
+  border-radius: 25px;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 1);
+  width: 1080px;
+}
+  
+.footer-left{
+  position: relative;
+	display: flex;
+  flex-direction: column;
+  width: 185px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 20px;
+  margin: 5px 5px 5px 3px;
+  border: 2px solid #d9f5ff;
+  border-radius: 30px;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+  
+.footer-left >h2{
+  padding-left: 8px; 
+  margin-top: 15px; 
+  margin-bottom: 0px;
+}
+  
+.contacts-container-mail,
+.contacts-container-dis{
+	display: flex;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+  
+.contacts-container-dis >p,
+.contacts-container-mail >p{
+  font-size: 18px
+}
+  
+.dis-button,
+.mail-button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 16px;
+}
+  
+  
+.img-discord,
+.imgEmail{
+	display: flex;
+	width: 33px;
+	justify-items: center;
+	border: none;
+	margin: 0px;
+  margin-right: 2px;
+}
+  
+  
+.mail-button .tooltip,
+.dis-button .tooltip{
+	position: absolute;
+	display: flex;
+	transition: opacity 0.15s;
+	pointer-events: none;
+	white-space: nowrap;
+	opacity: 0;
+	background-color: rgb(250, 250, 250);
+	border-radius: 10px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #118adb;
+	height: 25px;
+	align-items: center;
+	left: 5px;
+}
+  
+.dis-button .tooltip{
+	width: 100px;
+}
+
+.dis-button:hover .tooltip,
+.mail-button:hover .tooltip{
+	opacity: 1;
+}
+  
+.footer-center-container{
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 860px;
+}
+  
+.my-git-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+  
+.rs-school-container,
+.create-year-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.my-git-text{
+	font-family: Lora, Arial, sans-serif; 
+	font-size: 25px; 
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+  
+.create-year-text{
+	font-family: Lora, Arial, sans-serif; 
+	font-size: 25px; 
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin-bottom: 5px;
+}
+  
+.creator{
+	font-family: Lora, Arial, sans-serif; 
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 5px;   
+}
+  
