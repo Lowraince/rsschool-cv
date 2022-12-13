@@ -348,7 +348,6 @@ footer{
 .img-discord,
 .imgEmail{
 	display: flex;
-	width: 33px;
 	justify-items: center;
 	border: none;
 	margin: 0px;
