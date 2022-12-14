@@ -316,6 +316,7 @@ footer{
   border: 2px solid #d9f5ff;
   border-radius: 30px;
 	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding-left: 0px;
 }
   
 .footer-left >h2{
