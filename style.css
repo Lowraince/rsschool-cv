@@ -70,6 +70,7 @@ header{
 .autor-photo{
 	display: flex;
   border-radius: 20px;
+  object-fit: cover;
 }
 
 .right-header-container{
@@ -347,11 +348,12 @@ footer{
 	display: flex;
   padding-left: 5px;
   margin-top: 5px;
+  cursor: pointer;
 }
   
 .contacts-container-dis >p,
 .contacts-container-mail >p{
-  font-size: 18px
+  font-size: 18px;
 }
   
 .dis-button,
