@@ -240,6 +240,11 @@ main{
   padding-left: 15px;
 }
 
+.link-course{
+  color: #429cd6;
+  text-decoration: none;
+}
+
 .headerinfoh2{
   margin-bottom: 0;
   display: flex;
@@ -324,7 +329,19 @@ footer{
   margin-top: 15px; 
   margin-bottom: 0px;
 }
-  
+
+.item-list{
+  display: flex;
+  list-style-type:  none;
+  padding-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.item-list >h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .contacts-container-mail,
 .contacts-container-dis{
 	display: flex;
