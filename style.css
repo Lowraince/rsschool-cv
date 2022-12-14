@@ -188,7 +188,7 @@ main{
 	background-color: rgb(250, 250, 250);
 	border-radius: 20px;
 	width: 175px;
-	height: 270px;
+	height: 250px;
 	margin-top: 10px;
 	margin-right: 5px;
 	margin-left: 5px;
@@ -212,19 +212,17 @@ main{
 .aside-skills{
 	display: flex;
 	align-items: center;
-	flex-direction: row;    
+	flex-direction: row;
+  margin-top: 10px; 
+  margin-left: 5px;   
 }
 
 .imgskills{
-	width: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  border: none;
+  margin-right: 5px;
 }
-
-.imgskillGit{
-	width: 46px;
-	margin-right: 5px;
-	margin-left: 1px;
-}
-
 
 .detailedinfo{
   display: flex;
@@ -356,8 +354,8 @@ footer{
   font-size: 18px;
 }
   
-.dis-button,
-.mail-button{
+.dis-icon-container,
+.mail-icon-container{
   position: relative;
 	display: flex;
 	justify-content: center;
@@ -366,20 +364,21 @@ footer{
 	border-radius: 16px;
 }
   
-  
 .img-discord,
 .imgEmail{
 	display: flex;
 	justify-items: center;
 	border: none;
 	margin: 0px;
-  margin-right: 2px;
+  margin-right: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
 }
 
 .anim-email{
   position: absolute;
-  height: 27px;
-  width: 27px;
+  height: 28px;
+  width: 28px;
   right: 55px;
   border-radius: 100%;
   border: 2px solid;
@@ -391,7 +390,7 @@ footer{
   position: absolute;
   height: 28px;
   width: 28px;
-  right: 73px;
+  right: 76px;
   border-radius: 100%;
   border: 2px solid;
   border-color: #118adb transparent transparent;
@@ -399,8 +398,8 @@ footer{
 }
   
   
-.mail-button .tooltip,
-.dis-button .tooltip{
+.mail-icon-container .tooltip,
+.dis-icon-container .tooltip{
 	position: absolute;
 	display: flex;
 	transition: opacity 0.15s;
@@ -417,12 +416,12 @@ footer{
 	left: 0px;
 }
   
-.dis-button .tooltip{
+.dis-icon-container .tooltip{
 	width: 100px;
 }
 
-.dis-button:hover .tooltip,
-.mail-button:hover .tooltip{
+.dis-icon-container:hover .tooltip,
+.mail-icon-container:hover .tooltip{
 	opacity: 1;
 }
   
