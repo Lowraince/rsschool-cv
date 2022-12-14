@@ -90,7 +90,7 @@ header{
 	height: 65px;
 }
 
-.nav-menu{
+.nav{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -98,7 +98,7 @@ header{
   padding-right: 25px;
 }
 
-.nav-container{
+.nav-list{
 	display: flex;
 	background-color: rgb(250, 250, 250);
 	width: 180px;
