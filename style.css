@@ -194,7 +194,7 @@ main{
   margin-bottom: 0px;
 }
 
-.aside-container{
+.skill-list{
 	font-family: Lora, Arial, sans-serif;
 	font-size: 18px;
 	display: flex;
@@ -203,7 +203,7 @@ main{
   margin-top: 0px;
 }
 
-.aside-skills{
+.skill-item{
 	display: flex;
 	align-items: center;
 	flex-direction: row;
@@ -303,7 +303,7 @@ footer{
   width: 1080px;
 }
   
-.footer-left{
+.contacts-list{
   position: relative;
 	display: flex;
   flex-direction: column;
@@ -317,13 +317,13 @@ footer{
   padding-left: 0px;
 }
   
-.footer-left >h2{
+.contacts-list >h2{
   padding-left: 8px; 
   margin-top: 15px; 
   margin-bottom: 0px;
 }
 
-.item-list{
+.item-h2{
   display: flex;
   list-style-type:  none;
   padding-left: 5px;
@@ -331,12 +331,13 @@ footer{
   margin-bottom: 0px;
 }
 
-.item-list >h2{
+.item-h2 >h2{
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.contacts-list-mail,
-.contacts-list-dis{
+
+.item-email-contacts,
+.item-discord-contacts{
   position: relative;
 	display: flex;
   flex-direction: row;
@@ -345,16 +346,17 @@ footer{
 	margin-left: 5px;
   margin-top: 5px;
   cursor: pointer;
+  margin-top: 10px; 
 }
   
-.contacts-list-mail >p,
-.contacts-list-dis >p{
+.item-email-contacts >p,
+.item-discord-contacts >p{
   font-size: 18px;
   display: flex;
 }
 
 .img-discord,
-.imgEmail{
+.img-email{
 	display: flex;
 	justify-items: center;
 	border: none;
@@ -375,8 +377,8 @@ footer{
   animation: spin 1s linear infinite;
 }
 
-.contacts-list-mail .tooltip,
-.contacts-list-dis .tooltip{
+.item-email-contacts .tooltip,
+.item-discord-contacts .tooltip{
 	position: absolute;
 	display: flex;
 	transition: opacity 0.15s;
@@ -393,12 +395,12 @@ footer{
 	left: -2px;
 }
   
-.contacts-list-dis .tooltip{
+.item-discord-contacts .tooltip{
 	width: 93px;
 }
 
-.contacts-list-mail:hover .tooltip,
-.contacts-list-dis:hover .tooltip{
+.item-email-contacts:hover .tooltip,
+.item-discord-contacts:hover .tooltip{
 	opacity: 1;
 }
   
