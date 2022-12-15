@@ -1,0 +1,16 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="600" height="600" fill="#EEEEEE"/>
+<g id="js-icon 1" clip-path="url(#clip0_0_1)">
+<g id="Group">
+<path id="Vector" d="M300 600C465.685 600 600 465.685 600 300C600 134.315 465.685 0 300 0C134.315 0 0 134.315 0 300C0 465.685 134.315 600 300 600Z" fill="#FFCA28"/>
+<path id="Vector_2" d="M191.8 433.333L167.734 163.333H432.267L408.2 433.333L299.867 463.333L191.8 433.333Z" fill="white"/>
+</g>
+<path id="Vector 2" d="M289 411V215H256.227V373.261L243.182 369.609V361.087L219 355.304L221.864 396.087L286.773 410.505L289 411Z" fill="#FFCA28"/>
+<path id="Vector 1" d="M382 215H313.964L311.628 329.613L341.996 327.479L338.492 373.507L309 382.042V411L366.816 394.844L373.824 290.291H341.996V245.177H382V215Z" fill="#FFCA28"/>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="600" height="600" fill="white"/>
+</clipPath>
+</defs>
+</svg>
