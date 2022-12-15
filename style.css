@@ -307,7 +307,7 @@ footer{
   position: relative;
 	display: flex;
   flex-direction: column;
-  width: 185px;
+  width: 170px;
   background-color: rgb(250, 250, 250);
   border-radius: 20px;
   margin: 5px 5px 5px 3px;
@@ -335,29 +335,24 @@ footer{
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.contacts-container-mail,
-.contacts-container-dis{
+.contacts-list-mail,
+.contacts-list-dis{
+  position: relative;
 	display: flex;
-  padding-left: 5px;
+  flex-direction: row;
+	align-items: center;
+  margin-right: 8px;
+	margin-left: 5px;
   margin-top: 5px;
   cursor: pointer;
 }
   
-.contacts-container-dis >p,
-.contacts-container-mail >p{
+.contacts-list-mail >p,
+.contacts-list-dis >p{
   font-size: 18px;
+  display: flex;
 }
-  
-.dis-icon-container,
-.mail-icon-container{
-  position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: none;
-	border-radius: 16px;
-}
-  
+
 .img-discord,
 .imgEmail{
 	display: flex;
@@ -369,31 +364,19 @@ footer{
   border-radius: 50px;
 }
 
-.anim-email{
+.anim-email-dis{
   position: absolute;
   height: 28px;
   width: 28px;
-  right: 55px;
+  right: 127px;
   border-radius: 100%;
   border: 2px solid;
   border-color: #118adb transparent transparent;
   animation: spin 1s linear infinite;
 }
 
-.anim-disc{
-  position: absolute;
-  height: 28px;
-  width: 28px;
-  right: 76px;
-  border-radius: 100%;
-  border: 2px solid;
-  border-color: #118adb transparent transparent;
-  animation: spin 1s linear infinite;
-}
-  
-  
-.mail-icon-container .tooltip,
-.dis-icon-container .tooltip{
+.contacts-list-mail .tooltip,
+.contacts-list-dis .tooltip{
 	position: absolute;
 	display: flex;
 	transition: opacity 0.15s;
@@ -407,15 +390,15 @@ footer{
 	border-color: #118adb;
 	height: 25px;
 	align-items: center;
-	left: 0px;
+	left: -2px;
 }
   
-.dis-icon-container .tooltip{
-	width: 100px;
+.contacts-list-dis .tooltip{
+	width: 93px;
 }
 
-.dis-icon-container:hover .tooltip,
-.mail-icon-container:hover .tooltip{
+.contacts-list-mail:hover .tooltip,
+.contacts-list-dis:hover .tooltip{
 	opacity: 1;
 }
   
