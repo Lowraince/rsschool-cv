@@ -47,4 +47,4 @@ I want to try myself in programming and learn something new.
 ## Languages:
 
 * Russian - native speaker.
-* English - in progress.
+* English - A1.
