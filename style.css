@@ -1,0 +1,457 @@
+html{
+	scroll-behavior: smooth
+}
+
+body{
+	width: 1080px;
+	margin: auto;
+	background-image: url(/rsschool-cv/assets/background_024.jpg);
+  background-size: cover;
+	font-family: Lora, Arial, sans-serif;
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+li{
+  font-size: 18px;
+}
+
+h1{
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+header{
+	display: flex;
+	border: 10px solid #118adb;
+  border-radius: 10px;
+  margin-top: 25px;
+  background-color: #118adb;
+  border-bottom: none;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.header-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #d9f5ff;
+	border: 2px solid #118adb;
+  border-radius: 30px;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+
+.left-header-container{
+	display: flex;
+	width: 280px;
+	margin-top: 7px;
+	margin-bottom: 8px;
+}
+
+.photo-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+  background-color: rgb(250, 250, 250);
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+	width: 180px;
+}
+
+.autor-photo{
+	display: flex;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.right-header-container{
+	display: flex;
+	flex-direction: column;
+	width: 775px;
+}
+
+.ancor-cont-contain{
+  position: relative;
+	width: 65px;
+	height: 65px;
+	margin-left: 40px;
+}
+
+.ancor-code-contain{
+	width: 65px;
+	height: 65px;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 25px;
+}
+
+.nav-list{
+	display: flex;
+	background-color: rgb(250, 250, 250);
+	width: 180px;
+	height: 70px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid;
+	border-radius: 40px;
+	border: none;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+	list-style-type: none;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin: 0px;
+}
+
+.ul-nav>li{
+	display: inline;
+	width: 200px;
+}
+
+.ancor-code-contain:hover,
+.ancor-cont-contain:hover{
+	background-color: #118adb;
+	width: 65px;
+	height: 65px;
+	border-radius: 35px;
+	box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.ancor-code-contain:active,
+.ancor-cont-contain:active{
+	background-color: #107ac0;
+	width: 65px;
+	height: 65px;
+	border-radius: 35px;
+	box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.autor-info{
+  font-family: Lora, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 25px;
+}
+
+.title{
+	display: flex;
+	justify-content: flex-end;
+  margin-top: 0px;
+}
+
+.subtitle{
+  display: flex;
+  text-align: end;
+}
+
+main{
+	display: flex;
+	margin: auto;
+  background-color: #118adb;
+  border: 10px solid #118adb;
+  border-top: none;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.aside{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.skills{
+	background-color: rgb(250, 250, 250);
+	border-radius: 20px;
+	width: 175px;
+	height: 250px;
+  padding-top: 0px;
+	margin-right: 5px;
+	margin-left: 5px;
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.skills >h2{
+  padding-left: 8px; 
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.skill-list{
+	font-family: Lora, Arial, sans-serif;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 5px;
+  margin-top: 0px;
+}
+
+.skill-item{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+  margin-top: 10px; 
+  margin-left: 5px;   
+}
+
+.imgskills{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  border: none;
+  margin-right: 5px;
+}
+
+.detailedinfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  background-color: rgb(250, 250, 250);
+  width: 900px;
+  border: 1px solid;
+  border-radius: 20px;
+  border: none;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+  padding-left: 15px;
+}
+
+.link-course{
+  color: #429cd6;
+  text-decoration: none;
+}
+
+.headerinfoh2{
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+	padding-right: 25px;
+}
+
+.underline-black{
+	background-color: black;
+  height: 2px;
+  width: 97.5%;
+  margin-bottom: 20px;
+}
+
+.codeContain{
+  background-color: #202026;
+  margin-right: 18px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.code{
+	color: rgb(145, 204, 223);
+	font-family: Lora, Arial, sans-serif;
+	font-size: 20px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.bluecode{
+	color: rgb(0, 217, 255);
+}
+
+.yellowcode{
+	color: rgb(250, 211, 93);
+}
+
+.violetcode{
+	color: rgb(233, 143, 241);
+}
+
+footer{
+  display: flex;
+  background-color: #118adb;
+  border: 10px solid #118adb;
+  height: 165px;
+  border-top: none;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.footer-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #d9f5ff;
+	border: 2px solid #118adb;
+  border-radius: 25px;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 1);
+  width: 1080px;
+}
+  
+.contacts-list{
+  position: relative;
+	display: flex;
+  flex-direction: column;
+  width: 170px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 20px;
+  margin: 5px 5px 5px 3px;
+  border: 2px solid #d9f5ff;
+  border-radius: 30px;
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding-left: 0px;
+}
+  
+.contacts-list >h2{
+  padding-left: 8px; 
+  margin-top: 15px; 
+  margin-bottom: 0px;
+}
+
+.item-h2{
+  display: flex;
+  list-style-type:  none;
+  padding-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.item-h2 >h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.item-email-contacts,
+.item-discord-contacts{
+  position: relative;
+	display: flex;
+  flex-direction: row;
+	align-items: center;
+  margin-right: 8px;
+	margin-left: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+  
+.item-email-contacts >p,
+.item-discord-contacts >p{
+  font-size: 18px;
+  display: flex;
+}
+
+.img-discord,
+.img-email{
+	display: flex;
+	justify-items: center;
+	border: none;
+	margin: 0px;
+  margin-right: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+}
+
+.anim-email-dis{
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  right: 127px;
+  border-radius: 100%;
+  border: 2px solid;
+  border-color: #118adb transparent transparent;
+  animation: spin 1s linear infinite;
+}
+
+.item-email-contacts .tooltip,
+.item-discord-contacts .tooltip{
+	position: absolute;
+	display: flex;
+	transition: opacity 0.15s;
+	pointer-events: none;
+	white-space: nowrap;
+	opacity: 0;
+	background-color: rgb(250, 250, 250);
+	border-radius: 10px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #118adb;
+	height: 25px;
+	align-items: center;
+	left: -2px;
+}
+  
+.item-discord-contacts .tooltip{
+	width: 93px;
+}
+
+.item-email-contacts:hover .tooltip,
+.item-discord-contacts:hover .tooltip{
+	opacity: 1;
+}
+  
+.footer-center-container{
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 860px;
+}
+  
+.my-git-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+  
+.rs-school-container,
+.create-year-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.my-git-text{
+	font-family: Lora, Arial, sans-serif; 
+	font-size: 25px; 
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+  
+.create-year-text{
+	font-family: Lora, Arial, sans-serif; 
+	font-size: 25px; 
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin-bottom: 5px;
+}
+  
+.creator{
+	font-family: Lora, Arial, sans-serif; 
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 5px;   
+}
+
+@keyframes spin{
+  100%{
+      transform: rotate(360deg);
+  }
+}

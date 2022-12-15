@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/rsschool-cv/assets/favicon.png">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="left-header-container">
+        <div class="photo-container">
+          <img class="autor-photo" src="/rsschool-cv/assets/header/Avatar.png" width="165" height="178" alt="avatar.png">
+        </div>
+      </div>
+      <div class="right-header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="ancor-code-contain">
+              <a href="#code" class="anchor"><img class="buttonCodeImg" src="/rsschool-cv/assets/header/CodeImg(w).svg" width="65" alt="CodeImg"></a>   
+            </li>
+            <li class="ancor-cont-contain">
+              <a href="#contacts" class="anchor"><img class="buttonCodeImg" src="/rsschool-cv/assets/header/Contacts.svg" width="65" alt="ContactsImg"></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="autor-info">
+            <h1 class="title">N. Vlad</h1>
+            <h2 class="subtitle">Junior Frontend Developer</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <aside class="aside">
+      <section class="skills">
+          <h2>SKILLS</h2>
+        <ul class="skill-list">
+          <li class="skill-item"><img class="imgskills" src="/rsschool-cv/assets/aside/html-icon.svg" width="33" height="33" alt="html.svg">HTML</li>
+          <li class="skill-item"><img class="imgskills" src="/rsschool-cv/assets/aside/css-icon.svg" width="33" height="33" alt="css.svg"> CSS </li>
+          <li class="skill-item"><img class="imgskills" src="/rsschool-cv/assets/aside/js-icon.svg" width="33" height="33" alt="js.svg"> JavaScript </li>
+          <li class="skill-item"><img class="imgskills" src="/rsschool-cv/assets/aside/github-icon.svg" width="33" height="33" alt="git.svg"> Github </li>
+        </ul>
+      </section>
+    </aside>
+    <div class="detailedinfo">
+      <div>
+        <h2 class="headerinfoh2">ABOUT ME</h2>
+      </div>
+        <div class="underline-black"></div>
+      <div class="summary">
+        <p> I want to try myself in programming and learn something new.</p>
+      </div>
+      <div>
+        <h2>LANGUAGES:</h2>
+      </div>
+      <ul>
+        <li>Russian - native speaker.</li>
+        <li>English -  A1.</li>
+      </ul>
+      <div>
+        <h2>COURSES:</h2>
+      </div>
+      <ul>
+        <li><a class="link-course" href="https://learn.javascript.ru/" target="_blank">JavaScript</a> for beginners.</li>
+        <li>
+          Basics 
+          <a class="link-course" href="https://code-basics.com/ru/languages/html" target="_blank">Html</a>
+          &amp; 
+           <a class="link-course" href="https://code-basics.com/ru/languages/css" target="_blank">CSS</a>
+        </li>
+      </ul>
+      <div>
+        <h2 class="headerinfoh2">CODE EXAMPLE</h2>
+      </div>
+        <div class="underline-black"></div>
+      <pre id="code" class="codeContain">
+      <code class="code">
+      <span class="bluecode">function</span> <span class="yellowcode">add</span>(num1, num2) {
+        
+        num1 = num1.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>(""); 
+        num2 = num2.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>("");
+  
+        <span class="violetcode">if</span>  (num1.length &lt; num2.length) <span class="violetcode">{</span>
+          [num1, num2] = [num2, num1];
+        <span class="violetcode">}</span>
+  
+        <span class="bluecode">let</span> returnString = "";
+  
+        <span class="violetcode">for</span>  (let i = 0; i &lt; num1.length; i++) <span class="violetcode">{</span>
+          let int1 = <span class="yellowcode">parseInt</span>(num1[i]);
+          let int2 = <span class="yellowcode">parseInt</span>(num2[i] || 0);
+  
+          returnString = (int1 + int2).toString() + returnString;
+        <span class="violetcode">}</span>
+  
+      <span class="violetcode">return</span> <span class="yellowcode">parseInt</span>(returnString);
+      }
+          </code>
+        </pre>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container"> 
+      <ul class="contacts-list" id="contacts">
+          <li class="item-h2">
+            <h2>CONTACTS</h2>
+          </li>
+          <li class="item-email-contacts">
+                <img class="img-email" src="/rsschool-cv/assets/footer/email-icon.svg" width="29" height="29" alt="Email-icon">
+                <p>Email</p>
+                <div class="anim-email-dis"></div>
+                <div class="tooltip"> neson@yahoo.com </div>
+          </li>
+          <li class="item-discord-contacts">
+                <img class="img-discord" src="/rsschool-cv/assets/footer/discord-icon.svg" width="29" height="29" alt="Email-icon">
+                <p>Discord</p>
+                <div class="anim-email-dis"></div>
+                <div class="tooltip"> Lait#8720 </div>
+          </li>
+      </ul>
+      <div class="footer-center-container">
+        <div class="my-git-container">
+            <div>
+              <a href="https://github.com/Lowraince" target="_blank"><img src="/rsschool-cv/assets/footer/github-icon.svg" width="80" height="80" alt="Git-Hub-icon"></a>
+            </div>
+            <div>
+              <a class="my-git-text" href="https://github.com/Lowraince" target="_blank">My GitHub</a>
+            </div>
+        </div>
+        <div class="rs-school-container">
+          <a href="https://rs.school/js/" target="_blank"><img src="/rsschool-cv/assets/footer/rs_school_js.svg" width="200" height="100" alt="rs_school"></a>
+        </div>
+          <div class="create-year-container">
+            <p class="create-year-text">Create in 2022</p>
+            <p class="creator"> &#169; by Vlad</p>
+          </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
