@@ -189,7 +189,7 @@ main{
 	border-radius: 20px;
 	width: 175px;
 	height: 250px;
-	margin-top: 10px;
+  padding-top: 0px;
 	margin-right: 5px;
 	margin-left: 5px;
 	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -198,7 +198,7 @@ main{
 .skills >h2{
   padding-left: 8px; 
   margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .aside-container{
@@ -207,6 +207,7 @@ main{
 	display: flex;
 	flex-direction: column;
 	padding-left: 5px;
+  margin-top: 0px;
 }
 
 .aside-skills{
