@@ -49,24 +49,17 @@
         </ul>
       </section>
     </aside>
-    <div class="detailedinfo">
-      <div>
+    <article class="detailedinfo">
         <h2 class="headerinfoh2">ABOUT ME</h2>
-      </div>
+      <section>
         <div class="underline-black"></div>
-      <div class="summary">
         <p> I want to try myself in programming and learn something new.</p>
-      </div>
-      <div>
         <h2>LANGUAGES:</h2>
-      </div>
       <ul>
         <li>Russian - native speaker.</li>
         <li>English -  A1.</li>
       </ul>
-      <div>
-        <h2>COURSES:</h2>
-      </div>
+      <h2>COURSES:</h2>
       <ul>
         <li><a class="link-course" href="https://learn.javascript.ru/" target="_blank">JavaScript</a> for beginners.</li>
         <li>
@@ -76,38 +69,39 @@
            <a class="link-course" href="https://code-basics.com/ru/languages/css" target="_blank">CSS</a>
         </li>
       </ul>
-      <div>
-        <h2 class="headerinfoh2">CODE EXAMPLE</h2>
-      </div>
-        <div class="underline-black"></div>
-      <pre id="code" class="codeContain">
-      <code class="code">
-      <span class="bluecode">function</span> <span class="yellowcode">add</span>(num1, num2) {
-        
-        num1 = num1.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>(""); 
-        num2 = num2.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>("");
-  
-        <span class="violetcode">if</span>  (num1.length &lt; num2.length) <span class="violetcode">{</span>
-          [num1, num2] = [num2, num1];
-        <span class="violetcode">}</span>
-  
-        <span class="bluecode">let</span> returnString = "";
-  
-        <span class="violetcode">for</span>  (let i = 0; i &lt; num1.length; i++) <span class="violetcode">{</span>
-          let int1 = <span class="yellowcode">parseInt</span>(num1[i]);
-          let int2 = <span class="yellowcode">parseInt</span>(num2[i] || 0);
-  
-          returnString = (int1 + int2).toString() + returnString;
-        <span class="violetcode">}</span>
-  
-      <span class="violetcode">return</span> <span class="yellowcode">parseInt</span>(returnString);
-      }
-          </code>
-        </pre>
-    </div>
+      </section>
+      <section>
+          <h2 class="headerinfoh2">CODE EXAMPLE</h2>
+          <div class="underline-black"></div>
+        <pre id="code" class="codeContain">
+        <code class="code">
+        <span class="bluecode">function</span> <span class="yellowcode">add</span>(num1, num2) {
+          
+          num1 = num1.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>(""); 
+          num2 = num2.<span class="yellowcode">toString</span>().<span class="yellowcode">split</span>("").<span class="yellowcode">reverse</span>().<span class="yellowcode">join</span>("");
+    
+          <span class="violetcode">if</span>  (num1.length &lt; num2.length) <span class="violetcode">{</span>
+            [num1, num2] = [num2, num1];
+          <span class="violetcode">}</span>
+    
+          <span class="bluecode">let</span> returnString = "";
+    
+          <span class="violetcode">for</span>  (let i = 0; i &lt; num1.length; i++) <span class="violetcode">{</span>
+            let int1 = <span class="yellowcode">parseInt</span>(num1[i]);
+            let int2 = <span class="yellowcode">parseInt</span>(num2[i] || 0);
+    
+            returnString = (int1 + int2).toString() + returnString;
+          <span class="violetcode">}</span>
+    
+        <span class="violetcode">return</span> <span class="yellowcode">parseInt</span>(returnString);
+        }
+            </code>
+          </pre>
+      </section>
+    </article>
   </main>
   <footer>
-    <div class="footer-container"> 
+    <section class="footer-container"> 
       <ul class="contacts-list" id="contacts">
           <li class="item-h2">
             <h2>CONTACTS</h2>
@@ -142,7 +136,7 @@
             <p class="creator"> &#169; by Vlad</p>
           </div>
       </div>
-    </div>
+    </section>
   </footer>
 </body>
 </html>
