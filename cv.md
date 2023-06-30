@@ -3,7 +3,7 @@
 ## Contacts:
 
 * __Email__: _neson@yahoo.com_
-* __Discord__: _Lait#8720_
+* __Discord__: _lowraince_
 
 ## About me:
 
