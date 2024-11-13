@@ -37,3 +37,8 @@ function highest(arr){
     
     return +arrSort2[0][0]
 }
+```
+---
+### Languages:
+- Russian - native speaker.
+- English - A1.
